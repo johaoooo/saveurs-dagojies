@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>La Ferme & Produits Frais | Saveurs d'Agojiés | Saveurs d'Agojiés</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Saveurs d'Agojiés, restaurant Porto-Novo, cuisine béninoise, traiteur, ferme bio, grillades, méchoui, produits frais, Amiwo, miel pur" name="keywords">
+    <meta content='Achetez les produits bio de notre ferme à Porto-Novo : volailles nobles, moutons peulhs, alevins, arbres fruitiers et miel pur.' name="description">
+
+    <!-- Favicon -->
+    <link href="img/logo-opt.png" rel="icon" type="image/png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Nunito:wght@600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Chargement...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Saveurs d'Agojiés</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Accueil</a>
+                        <a href="about.html" class="nav-item nav-link">À Propos</a>
+                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="menu.html" class="nav-item nav-link">Notre Carte</a>
+                        <a href="ferme.html" class="nav-item nav-link active">La Ferme</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Plus</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="booking.html" class="dropdown-item">Réservation & Devis</a>
+                                <a href="team.html" class="dropdown-item">Notre Équipe</a>
+                                <a href="testimonial.html" class="dropdown-item">Témoignages</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="booking.html" class="btn btn-primary py-2 px-4">Réserver Une Table</a>
+                </div>
+            </nav>
+
+            <div class="container-fluid py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">La Ferme Saveurs d'Agojiés</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="index.html" class="text-primary">Accueil</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">La Ferme</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Ferme Start -->
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Directement du Producteur</h5>
+                    <h1 class="mb-4">Les Produits Frais de Notre Ferme</h1>
+                    <p class="text-muted max-w-700 mx-auto mb-5">
+                        Commandez directement vos animaux vivants pour l'élevage ou vos fêtes, vos alevins triés, vos plants d'arbres fruitiers greffés et notre miel pur d'abeilles sauvages récolté au cœur des bambousiers.
+                    </p>
+                </div>
+
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5 flex-wrap">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="pill" href="#tab-f-elevage">
+                                <i class="fa fa-egg me-2"></i>Élevage & Volailles Nobles
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" href="#tab-f-pisci">
+                                <i class="fa fa-fish me-2"></i>Pisciculture & Alevins
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" href="#tab-f-pepi">
+                                <i class="fa fa-seedling me-2"></i>Pépinière & Plants Fruitiers
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" href="#tab-f-miel">
+                                <i class="fa fa-jar me-2"></i>Miel Pur & Plantes Bio
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content text-start">
+                        <!-- Tab Elevage -->
+                        <div id="tab-f-elevage" class="tab-pane fade show p-0 active">
+                            <h4 class="mb-4 text-primary border-bottom pb-2"><i class="fa fa-egg me-2"></i>Élevage plein air : Oies, Dindes, Goliath, Moutons Peulhs, Lapins</h4>
+                            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/oies-de-chine-souche-pure.jpg" alt="Oies de Chine (souche pure)">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Oies de Chine (souche pure)</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Oies de Chine de race pure, élevées en plein air</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">15 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Oies%20de%20Chine%20%28souche%20pure%29%20%2815%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/pintades-pintadeaux.jpg" alt="Pintades & Pintadeaux">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Pintades & Pintadeaux</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Pintades de ferme réputées pour leur chair savoureuse</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">5 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Pintades%20%26%20Pintadeaux%20%285%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/dindes-bronze-damerique-dindonneaux.jpg" alt="Dindes (Bronzé d'Amérique) & Dindonneaux">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Dindes (Bronzé d'Amérique) & Dindonneaux</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Dindes de grande taille élevées au grain</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">18 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Dindes%20%28Bronz%C3%A9%20d%27Am%C3%A9rique%29%20%26%20Dindonneaux%20%2818%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/poulets-poussins-goliath.jpg" alt="Poulets & Poussins Goliath">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Poulets & Poussins Goliath</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Poulets Goliath vigoureux et à croissance rapide</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">4 500 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Poulets%20%26%20Poussins%20Goliath%20%284%20500%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/poulets-locaux-souche-pure-poussins.jpg" alt="Poulets locaux Souche Pure & Poussins">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Poulets locaux Souche Pure & Poussins</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Poulets fermiers locaux 100% naturels</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">4 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Poulets%20locaux%20Souche%20Pure%20%26%20Poussins%20%284%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/poulets-ameliores-cou-nu.jpg" alt="Poulets améliorés cou nu">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Poulets améliorés cou nu</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Poulets de race cou nu résistants et charnus</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">4 500 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Poulets%20am%C3%A9lior%C3%A9s%20cou%20nu%20%284%20500%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/cailles-cailleteaux.jpg" alt="Cailles & Cailleteaux">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Cailles & Cailleteaux</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Cailles d'élevage pour viande et ponte</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">1 500 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Cailles%20%26%20Cailleteaux%20%281%20500%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/cobayes-bb-cobayes.jpg" alt="Cobayes & BB cobayes">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Cobayes & BB cobayes</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Élevage soigné de cobayes de ferme</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">2 500 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Cobayes%20%26%20BB%20cobayes%20%282%20500%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/lapins-lapereaux.jpg" alt="Lapins & Lapereaux">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Lapins & Lapereaux</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Lapins fermiers nourris aux herbes de la ferme</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">6 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Lapins%20%26%20Lapereaux%20%286%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/mouton-race-bali-bali-race-peulh.jpg" alt="Mouton Race Bali Bali (Race Peulh)">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Mouton Race Bali Bali (Race Peulh)</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Mouton Bali Bali de grande stature, parfait pour élevage et festivités</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">65 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Mouton%20Race%20Bali%20Bali%20%28Race%20Peulh%29%20%2865%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/mouton-race-balami.jpg" alt="Mouton Race Balami">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Mouton Race Balami</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Mouton Balami imposant et bien conformé</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">75 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Mouton%20Race%20Balami%20%2875%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/mouton-race-oudah.jpg" alt="Mouton Race Oudah">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Mouton Race Oudah</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Mouton Oudah bicolore très prisé</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">70 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Mouton%20Race%20Oudah%20%2870%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/chevre-rousse-de-maradi.jpg" alt="Chèvre rousse de Maradi">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Chèvre rousse de Maradi</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Chèvre rousse de Maradi prolifique et rustique</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">45 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Ch%C3%A8vre%20rousse%20de%20Maradi%20%2845%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+                        </div>
+
+                        <!-- Tab Pisci -->
+                        <div id="tab-f-pisci" class="tab-pane fade show p-0">
+                            <h4 class="mb-4 text-primary border-bottom pb-2"><i class="fa fa-fish me-2"></i>Aquaculture : Poissons marchands et alevins vigoureux</h4>
+                            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/poissons-clarias-poisson-chat.jpg" alt="Poissons Clarias (Poisson-chat)">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Poissons Clarias (Poisson-chat)</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Clarias frais issus de nos bassins aquacoles</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">3 500 FCFA <small class='text-muted fs-6'>/ kg</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Poissons%20Clarias%20%28Poisson-chat%29%20%283%20500%20FCFA%20/%20kg%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/poissons-tilapia-frais.jpg" alt="Poissons Tilapia frais">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Poissons Tilapia frais</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Tilapia de qualité supérieure nourri bio</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">3 000 FCFA <small class='text-muted fs-6'>/ kg</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Poissons%20Tilapia%20frais%20%283%20000%20FCFA%20/%20kg%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/poissons-pengasius-bramar.jpg" alt="Poissons Pengasius & Bramar">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Poissons Pengasius & Bramar</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Poissons d'eau douce à chair blanche et ferme</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">3 500 FCFA <small class='text-muted fs-6'>/ kg</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Poissons%20Pengasius%20%26%20Bramar%20%283%20500%20FCFA%20/%20kg%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/alevins-selectionnes-clarias-tilapia-pengasius.jpg" alt="Alevins sélectionnés (Clarias / Tilapia / Pengasius)">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Alevins sélectionnés (Clarias / Tilapia / Pengasius)</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Alevins rigoureusement triés et vigoureux pour fermes aquacoles</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">150 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Alevins%20s%C3%A9lectionn%C3%A9s%20%28Clarias%20/%20Tilapia%20/%20Pengasius%29%20%28150%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+                        </div>
+
+                        <!-- Tab Pepi -->
+                        <div id="tab-f-pepi" class="tab-pane fade show p-0">
+                            <h4 class="mb-4 text-primary border-bottom pb-2"><i class="fa fa-seedling me-2"></i>Pépinière : Arbres fruitiers greffés et plants d'avenir</h4>
+                            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/plants-de-noni.jpg" alt="Plants de Noni">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Plants de Noni</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Jeunes plants de Noni aux propriétés médicinales réputées</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">2 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Plants%20de%20Noni%20%282%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/plants-de-fruit-de-la-passion.jpg" alt="Plants de Fruit de la passion">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Plants de Fruit de la passion</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Plants grimpants de passion très productifs</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">1 500 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Plants%20de%20Fruit%20de%20la%20passion%20%281%20500%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/plants-de-pomme-cannelle.jpg" alt="Plants de Pomme cannelle">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Plants de Pomme cannelle</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Plants de pomme cannelle prêts à repiquer</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">2 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Plants%20de%20Pomme%20cannelle%20%282%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/plants-de-baobab.jpg" alt="Plants de Baobab">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Plants de Baobab</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Jeunes baobabs greffés pour fructification précoce</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">2 500 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Plants%20de%20Baobab%20%282%20500%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/plants-de-truffe-blanc.jpg" alt="Plants de Truffe blanc">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Plants de Truffe blanc</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Plants rares de truffe blanc</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">3 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Plants%20de%20Truffe%20blanc%20%283%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/bananier-cocotier-selectionne.jpg" alt="Bananier & Cocotier sélectionné">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Bananier & Cocotier sélectionné</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Rejets de bananiers et cocotiers nains haute production</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">2 500 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Bananier%20%26%20Cocotier%20s%C3%A9lectionn%C3%A9%20%282%20500%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/pommier-sauvage-irvingia-assro.jpg" alt="Pommier sauvage (Irvingia / Assro)">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Pommier sauvage (Irvingia / Assro)</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Plants d'Irvingia gabonensis (Assro)</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">2 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Pommier%20sauvage%20%28Irvingia%20/%20Assro%29%20%282%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/palmier-local-selectionne.jpg" alt="Palmier local & sélectionné">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Palmier local & sélectionné</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Plants de palmiers à huile sélectionnés haute performance</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">3 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Palmier%20local%20%26%20s%C3%A9lectionn%C3%A9%20%283%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/papayer-selectionne.jpg" alt="Papayer sélectionné">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Papayer sélectionné</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Papayers solo / hermaphrodites très sucrés</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">1 500 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Papayer%20s%C3%A9lectionn%C3%A9%20%281%20500%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/tangelo-tangor-mandarinier.jpg" alt="Tangelo, Tangor & Mandarinier">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Tangelo, Tangor & Mandarinier</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Agrumes greffés à haut rendement</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">3 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Tangelo%2C%20Tangor%20%26%20Mandarinier%20%283%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/citronnier-manguier-camerounaise.jpg" alt="Citronnier & Manguier (Camerounaise)">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Citronnier & Manguier (Camerounaise)</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Plants greffés de citronnier et manguier spécial</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">3 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Citronnier%20%26%20Manguier%20%28Camerounaise%29%20%283%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/avocatier-greffe.jpg" alt="Avocatier greffé">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Avocatier greffé</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Avocatiers greffés à fructification rapide</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">3 000 FCFA <small class='text-muted fs-6'>/ pièce</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Avocatier%20greff%C3%A9%20%283%20000%20FCFA%20/%20pi%C3%A8ce%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+                        </div>
+
+                        <!-- Tab Miel -->
+                        <div id="tab-f-miel" class="tab-pane fade show p-0">
+                            <h4 class="mb-4 text-primary border-bottom pb-2"><i class="fa fa-leaf me-2"></i>Apiculture & Herbes aromatiques fraîches</h4>
+                            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/herbes-aromatiques-fraiches-bio.jpg" alt="Herbes aromatiques fraîches bio">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Herbes aromatiques fraîches bio</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Menthe, Citronnelle, Céleri, Persil, Basilic, Thym, Romarin, Laurier cueillis du matin</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">1 000 FCFA <small class='text-muted fs-6'>/ sachet</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Herbes%20aromatiques%20fra%C3%AEches%20bio%20%281%20000%20FCFA%20/%20sachet%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/fruits-de-noni-bio-frais.jpg" alt="Fruits de Noni Bio frais">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Fruits de Noni Bio frais</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Fruits de Noni mûris naturellement à la ferme</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">2 500 FCFA <small class='text-muted fs-6'>/ kg</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Fruits%20de%20Noni%20Bio%20frais%20%282%20500%20FCFA%20/%20kg%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/miel-pur-dabeilles-cur-de-bambousiers.jpg" alt="Miel pur d'abeilles (Cœur de Bambousiers)">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Miel pur d'abeilles (Cœur de Bambousiers)</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Miel rare récolté dans les ruches situées au cœur de nos bambouseraies</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">5 000 FCFA <small class='text-muted fs-6'>/ bouteille (75cl)</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Miel%20pur%20d%27abeilles%20%28C%C5%93ur%20de%20Bambousiers%29%20%285%20000%20FCFA%20/%20bouteille%20%2875cl%29%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card rounded shadow-sm h-100 d-flex flex-column">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/produits/miel-pur-dabeilles-cur-de-palmiers.jpg" alt="Miel pur d'abeilles (Cœur de Palmiers)">
+                            <span class="badge-gold position-absolute top-0 end-0 m-3 shadow">Bio & Sain</span>
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold mb-2">Miel pur d'abeilles (Cœur de Palmiers)</h5>
+                            <p class="text-muted small flex-grow-1 mb-3">Miel ambré et parfumé récolté au cœur des palmeraies</p>
+                            <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                                <span class="price-tag">5 500 FCFA <small class='text-muted fs-6'>/ bouteille (75cl)</small></span>
+                                <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9s%2C%20je%20souhaite%20commander%20%3A%20Miel%20pur%20d%27abeilles%20%28C%C5%93ur%20de%20Palmiers%29%20%285%20500%20FCFA%20/%20bouteille%20%2875cl%29%29." target="_blank" class="btn btn-sm btn-whatsapp px-3" title="Commander via WhatsApp">
+                                    <i class="fab fa-whatsapp me-1"></i>Commander
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ferme End -->
+    
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Saveurs d'Agojiés</h4>
+                        <p class="mb-3">De notre ferme à votre table. Gastronomie béninoise raffinée, viandes nobles d'élevage plein air et produits 100% frais du terroir à Porto-Novo.</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://wa.me/22901000000" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="tel:+22901000000"><i class="fa fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Coordonnées</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3 text-primary"></i>Porto-Novo, Bénin</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3 text-primary"></i>+229 01 00 00 00</p>
+                        <p class="mb-2"><i class="fab fa-whatsapp me-3 text-primary"></i>+229 01 00 00 00</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3 text-primary"></i>contact@saveurs-dagojies.com</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Horaires</h4>
+                        <h5 class="text-light fw-normal">Lundi - Samedi</h5>
+                        <p>08h00 - 22h00</p>
+                        <h5 class="text-light fw-normal">Dimanche & Fériés</h5>
+                        <p>09h00 - 21h00</p>
+                        <p class="small text-muted mb-0"><i class="fa fa-info-circle me-1"></i>Service Traiteur sur réservation 24h/24</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Navigation Rapide</h4>
+                        <a class="btn btn-link" href="about.html">Notre Histoire & Terroir</a>
+                        <a class="btn btn-link" href="menu.html">Carte & Spécialités</a>
+                        <a class="btn btn-link" href="ferme.html">Produits de la Ferme</a>
+                        <a class="btn btn-link" href="service.html">Services & Traiteur</a>
+                        <a class="btn btn-link" href="booking.html">Réservation & Devis</a>
+                        <a class="btn btn-link" href="contact.html">Contact & Accès</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="index.html">Saveurs d'Agojiés</a>, Tous droits réservés. L'Excellence du terroir béninois.
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="index.html">Accueil</a>
+                                <a href="menu.html">Carte</a>
+                                <a href="ferme.html">Ferme</a>
+                                <a href="contact.html">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Floating WhatsApp Button -->
+        <a href="https://wa.me/22901000000?text=Bonjour%20Saveurs%20d%27Agoji%C3%A9%2C%20je%20souhaite%20passer%20une%20commande." target="_blank" class="floating-whatsapp" title="Commander via WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
