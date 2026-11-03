@@ -623,11 +623,11 @@
     }
 
     .floating-whatsapp {
-        width: 52px;
-        height: 52px;
-        font-size: 26px;
-        left: 18px;
-        bottom: 18px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        left: 14px;
+        bottom: 14px;
     }
 
     .back-to-top {
@@ -653,6 +653,45 @@
 
     .footer .btn.btn-social {
         margin-bottom: 8px;
+    }
+
+    h5.d-flex.justify-content-between.border-bottom.pb-2.mb-1 {
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+
+    .text-primary.fw-bold.flex-shrink-0 {
+        flex-shrink: 1 !important;
+        white-space: nowrap;
+        font-size: .95rem;
+    }
+
+    a.btn.btn-whatsapp.flex-shrink-0 {
+        flex-shrink: 1 !important;
+        width: 28px !important;
+        height: 28px !important;
+        min-width: 28px;
+        margin-left: 6px !important;
+    }
+
+    .product-card .d-flex.justify-content-between.align-items-center {
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .price-tag {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    .price-tag small.fs-6 {
+        display: block;
+        font-size: .7rem !important;
+    }
+
+    .btn-whatsapp.btn-sm.px-3 {
+        padding: 4px 8px !important;
+        font-size: .8rem;
     }
 }
 
@@ -683,11 +722,11 @@
     }
 
     .floating-whatsapp {
-        width: 46px;
-        height: 46px;
-        font-size: 23px;
-        left: 14px;
-        bottom: 14px;
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+        left: 12px;
+        bottom: 12px;
     }
 
     .back-to-top {
